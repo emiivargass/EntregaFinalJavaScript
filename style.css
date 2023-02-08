@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background: url(img/fondo2.jpg) no-repeat center;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 100vh;
+}
+header{
+    background: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    color: blanchedalmond;
+    text-align: center;
+}  
+main{
+    width: 85%;
+    margin: auto;
+    padding: 100px;
+    background: rgba(255, 255, 255, .7);
+    display: flex;
+    gap: 30px;
+}
+
+#imagen{
+    width: 200px;
+}
+#palabra_a_adivinar{
+    height: 3em;
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+#letras{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+#letras button{
+    padding: 6px 0;
+    width: 20px;
+    text-align: center;
+}
